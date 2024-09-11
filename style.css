@@ -309,3 +309,115 @@ footer {
     background-repeat: no-repeat;
 
 }
+/* General Styles for Small Screens (Mobile) */
+body {
+    font-size: 15px;
+}
+
+.container {
+    flex-direction: column;
+}
+
+nav ul {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero {
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.stats {
+    flex-direction: column;
+}
+
+.stat {
+    margin-bottom: 20px;
+}
+
+/* Responsive for Tablets */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .stats {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .service-items {
+        justify-content: space-between;
+    }
+
+    .category-items {
+        justify-content: space-around;
+    }
+
+    .product-items {
+        justify-content: space-between;
+    }
+
+    .steps-container {
+        justify-content: space-around;
+    }
+}
+
+/* Responsive for Large Screens */
+@media (min-width: 1024px) {
+    .hero h2 {
+        font-size: 3em;
+    }
+
+    .hero p {
+        font-size: 1.5em;
+    }
+
+    .featured-item {
+        width: 400px;
+    }
+
+    .testimonial-item {
+        width: 250px;
+    }
+
+    footer {
+        text-align: left;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+    }
+}
+
+/* Responsive for Extra Large Screens (Desktops) */
+@media (min-width: 1200px) {
+    .container {
+        padding: 40px;
+    }
+
+    .hero {
+        padding: 150px 40px;
+    }
+
+    .steps-container, .product-items, .featured-container {
+        justify-content: space-evenly;
+    }
+
+    .testimonial-item {
+        width: 300px;
+    }
+
+    .footer-social {
+        justify-content: flex-end;
+    }
+}
