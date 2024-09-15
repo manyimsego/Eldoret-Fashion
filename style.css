@@ -17,6 +17,8 @@ body {
     border-radius: 2px;
     text-transform: capitalize;
     text-shadow: #555;
+     text-shadow:2px 2px 4px rgba(8, 4, 4, 0.5);
+       color: #ec7c05;
 }
 .logo{
     display: flex;
