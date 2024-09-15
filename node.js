@@ -35,3 +35,40 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+    document.getElementById("vid").addEventListener("click", function() {
+      var video = document.getElementById("myVideo");
+      
+      if (video.paused) {
+        video.play().catch(error => {
+          console.log('Error playing the video:', error);
+        });
+      } else {
+        video.pause();
+      }
+    });
+  
+// Counter animation
+const counters = document.querySelectorAll('.counter');
+const speed = 200; // Animation speed
+
+counters.forEach(counter => {
+    const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+        
+        // Calculate increment
+        const increment = target / speed;
+
+        // If current count is less than target, increment it
+        if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, 10); // Adjust delay for smoothness
+        } else {
+            counter.innerText = target; // Ensure exact target number is shown
+        }
+    };
+
+    // Trigger the animation
+    updateCount();
+});
