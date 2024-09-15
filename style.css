@@ -470,6 +470,7 @@ button.next-btn {
 .vid{
     display: flex;
     gap: 1.5em;
+    color:blue;
 
 }
 #vid{
