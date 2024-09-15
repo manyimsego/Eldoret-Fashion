@@ -6,21 +6,23 @@ body {
     background-color: rgb(168, 231, 231);
 }
 .logo-img{
-    width: auto;
-    height: 150px;
-    border-radius: 10px;
+    width:100px ;
+    height: 100px;
+    border-radius: 50%;
     display: flex;
     box-shadow: inset;
 }
 .text{color-scheme: 20px;
-    background-color: rgb(75, 145, 145);
     padding-left: 2px;
     border-radius: 2px;
     text-transform: capitalize;
     text-shadow: #555;
-
 }
-    .container {
+.logo{
+    display: flex;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +54,7 @@ nav ul li a {
 .hero {
     background-color: #ddd;
     padding: 100px 20px;
-    text-align: center;
+
 }
 
 .hero h2 {
@@ -194,19 +196,22 @@ nav ul li a {
 }
 
 .featured-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
 .featured-item {
-    width: 300px;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    place-items: center;
+    /* width: 300px; */
+    /* text-align: center; */
 }
 
 .featured-item img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     border-radius: 5px;
 }
 
@@ -323,6 +328,8 @@ footer {
     background-repeat: no-repeat;
 
 }
+/* Mobile First Approach */
+
 /* General Styles for Small Screens (Mobile) */
 body {
     font-size: 15px;
@@ -397,7 +404,7 @@ nav ul {
     }
 
     .featured-item {
-        width: 400px;
+        /* width: 400px; */
     }
 
     .testimonial-item {
@@ -435,3 +442,35 @@ nav ul {
         justify-content: flex-end;
     }
 }
+.One{
+    width: auto;
+    height: 20px;
+    image-rendering: crisp-edges;
+
+}
+button.prev-btn,
+button.next-btn {
+    padding: 10px;
+    margin-top: 20px;
+    cursor:pointer;
+    max-height: 30px;
+    width: auto;
+}
+.video{
+    display: flex;
+    gap: 1.5em;
+}
+.section{
+    display: flex;
+    gap:1em;
+
+}
+.vid{
+    display: flex;
+    gap: 1.5em;
+
+}
+#vid{
+    margin-top: 25px;
+}
+    
