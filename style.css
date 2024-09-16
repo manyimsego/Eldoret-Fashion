@@ -471,9 +471,12 @@ button.next-btn {
     display: flex;
     gap: 1.5em;
     color:blue;
+    
 
 }
 #vid{
     margin-top: 25px;
+    text-alignment:center;
+    display:flex;
 }
     
