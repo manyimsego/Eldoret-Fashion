@@ -333,7 +333,8 @@ footer {
 /* Mobile First Approach */
 
 /* General Styles for Small Screens (Mobile) */
-body {
+@media (max-width: 768px) { 
+    body {
     font-size: 15px;
 }
 
@@ -361,7 +362,7 @@ nav ul {
 .stat {
     margin-bottom: 20px;
 }
-
+}
 /* Responsive for Tablets */
 @media (min-width: 768px) {
     .container {
