@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eldoret Fashion Hub</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Header Section -->
@@ -88,7 +89,7 @@
 </section>
 
         <!-- Services Section -->
-        <section class="services">
+        <section class="services" data-aos="zoom-in" data-aos-delay="500">
             <h2>Our Best Collections</h2>
             <div class="service-items">
                 
@@ -116,7 +117,7 @@
         </section>
 
         <!-- Categories Section -->
-        <section class="services">
+        <section class="services" data-aos="fade-up" data-aos-duration="1500">
             <h2>Our Best Collections</h2>
             <div class="service-items">
                 
@@ -143,7 +144,7 @@
             </div>
         </section>
         <!-- Best Sellers Section -->
-        <section class="best-sellers">
+        <section class="best-sellers" data-aos="slide-left" data-aos-easing="ease-in-out" data-aos-duration="1200">
             <h2>Our Best Sellers</h2>
             <div class="product-items">
                 <div class="product-item  bv">
@@ -174,7 +175,7 @@
         </section>
 
         <!-- Easy Steps Section -->
-        <section class="steps">
+        <section class="steps" data-aos="zoom-in">
             <h2>Easy Steps to Get Your Fashion Fix</h2>
             <div class="steps-container">
                 <div class="step">
@@ -299,5 +300,10 @@
         </div>
     </footer>
     <script src="node.js"></script>
+    <script  src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"> 
+    </script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
