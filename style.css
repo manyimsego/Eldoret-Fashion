@@ -85,7 +85,7 @@ nav ul li a {
     justify-content: space-around;
     padding: 40px 20px;
     border-spacing: 2px;
-      font-size: 5em;
+      font-size: 4em;
     
 
 }
@@ -94,6 +94,7 @@ nav ul li a {
     margin: 0;
     font-size: 5em;
     color: #333;
+    background-color:black;
 }
 
 .stat p {
