@@ -227,6 +227,7 @@ nav ul li a {
 .testimonials {
     padding: 40px 20px;
     text-align: center;
+     display: flex;
 }
 
 .testimonial-container {
