@@ -18,7 +18,8 @@ body {
     text-transform: capitalize;
     text-shadow: #555;
      text-shadow:2px 2px 4px rgba(8, 4, 4, 0.5);
-       color: #ec7c05;
+     text-decoration:dashed;
+     color: #ec7c05;
 }
 .logo{
     display: flex;
@@ -49,16 +50,15 @@ nav ul li a {
 
 .cart a {
     text-decoration: none;
-    color: #333;
+    color: #ec7c05;
 }
 
 /* Hero Section */
 .hero {
     background-color: #ddd;
     padding: 100px 20px;
-    
-
-}
+    text-align: center;
+    }
 
 .hero h2 {
     margin: 0;
@@ -80,29 +80,31 @@ nav ul li a {
 }
 
 /* Statistics Section */
-
-
 .stats {
     display: flex;
-    justify-content: space-around;
+   justify-content: space-around;
     padding: 40px 20px;
     border-spacing: 2px;
-      gap: 2.5em;
+    gap: 2.5em;
+    
+
+    
 
 }
 
 .stat h3 {
     margin: 0;
     font-size: 2em;
-     color: #f5f6fa;
-    
+    color: #f5f6fa;
+    justify-content: center;
 }
 
 .stat p {
     margin: 5px 0 0;
     color: #ebe5e5;
     font-size: 1em;
-    
+    justify-content: center;
+}
 
 /* Services Section */
 .services {
@@ -205,16 +207,17 @@ nav ul li a {
 
 .featured-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     place-items: center;
+    /* width: 300px; */
+    /* text-align: center; */
 }
 
 .featured-item {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     place-items: center;
-    /* width: 300px; */
-    /* text-align: center; */
+    text-align: center;
 }
 
 .featured-item img {
@@ -227,7 +230,6 @@ nav ul li a {
 .testimonials {
     padding: 40px 20px;
     text-align: center;
-     display: flex;
 }
 
 .testimonial-container {
@@ -317,6 +319,21 @@ footer {
     text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-social a {
     margin: 0 10px;
 }
@@ -340,13 +357,9 @@ footer {
 /* Mobile First Approach */
 
 /* General Styles for Small Screens (Mobile) */
-@media (max-width: 768px) { 
-    body {
+@media (max-width: 768px) {body {
     font-size: 15px;
 }
-    .section{
-        flex-direction:column;
-    }
 
 .container {
     flex-direction: column;
@@ -367,16 +380,20 @@ nav ul {
 
 .stats {
     flex-direction: column;
+    
 }
 
 .stat {
     margin-bottom: 20px;
+    
 }
-}
+
 /* Responsive for Tablets */
 @media (min-width: 768px) {
-    .container {
-        flex-direction: row;
+    
+    }
+    .section{
+        flex-direction:column;
     }
 
     nav ul {
@@ -406,6 +423,7 @@ nav ul {
     }
 }
 
+
 /* Responsive for Large Screens */
 @media (min-width: 1024px) {
     .hero h2 {
@@ -417,7 +435,7 @@ nav ul {
     }
 
     .featured-item {
-        /* width: 400px; */
+        width: 400px; 
     }
 
     .testimonial-item {
@@ -452,7 +470,7 @@ nav ul {
     }
 
     .footer-social {
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 }
 .One{
@@ -472,6 +490,7 @@ button.next-btn {
 .video{
     display: flex;
     gap: 1.5em;
+    
 }
 .section{
     display: flex;
@@ -481,13 +500,23 @@ button.next-btn {
 .vid{
     display: flex;
     gap: 1.5em;
-    color:blue;
-    
+    cursor: pointer;
 
 }
 #vid{
     margin-top: 25px;
-    text-alignment:center;
-    display:flex;
 }
+.sneaker{
 
+border: #555;
+border-radius: 50px;
+}
+.stat{
+    color: rgb(246, 241, 241);
+    font-size: 1.5em;
+    background-color: #070707;
+    width: 200px;
+    color: #f3f0f0;
+justify-content: center;
+}
+    
