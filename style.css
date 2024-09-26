@@ -85,21 +85,21 @@ nav ul li a {
     justify-content: space-around;
     padding: 40px 20px;
     border-spacing: 2px;
-      font-size: 4em;
+      font-size: 3em;
     
 
 }
 
 .stat h3 {
     margin: 0;
-    font-size: 5em;
+    font-size: 3em;
     color: #333;
     background-color:black;
 }
 
 .stat p {
     margin: 5px 0 0;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 /* Services Section */
