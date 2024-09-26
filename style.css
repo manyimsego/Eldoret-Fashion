@@ -85,7 +85,7 @@ nav ul li a {
     justify-content: space-around;
     padding: 40px 20px;
     border-spacing: 2px;
-      
+      gap: 2.5em;
     
 
 }
@@ -486,5 +486,13 @@ button.next-btn {
     margin-top: 25px;
     text-alignment:center;
     display:flex;
+}
+.stat{
+    color: rgb(246, 241, 241);
+    font-size: 1.5em;
+    background-color: #070707;
+    width: 200px;
+    color: #f3f0f0;
+justify-content: center;
 }
     
