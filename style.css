@@ -1,8 +1,8 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;
     background-color: rgb(168, 231, 231);
 }
 .logo-img{
@@ -489,12 +489,4 @@ button.next-btn {
     text-alignment:center;
     display:flex;
 }
-.stat{
-    color: rgb(246, 241, 241);
-    font-size: 1.5em;
-    background-color: #070707;
-    width: 200px;
-    color: #f3f0f0;
-justify-content: center;
-}
-    
+
