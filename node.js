@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
 // Counter animation
 const counters = document.querySelectorAll('.counter');
-const speed = 200; // Animation speed
+const speed = 100; // Animation speed
 
 counters.forEach(counter => {
     const updateCount = () => {
