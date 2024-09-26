@@ -80,6 +80,15 @@ nav ul li a {
 }
 
 /* Statistics Section */
+
+.stat{
+    color: rgb(246, 241, 241);
+    font-size: 1.5em;
+    background-color: #070707;
+    width: 200px;
+    color: #f3f0f0;
+justify-content: center;
+}
 .stats {
     display: flex;
     justify-content: space-around;
@@ -93,14 +102,16 @@ nav ul li a {
 .stat h3 {
     margin: 0;
     font-size: 2em;
-    color: #333;
+     color: #f5f6fa;
+    justify-content: center;
     
 }
 
 .stat p {
     margin: 5px 0 0;
+    color: #ebe5e5;
     font-size: 1em;
-}
+    justify-content: center;
 
 /* Services Section */
 .services {
@@ -487,12 +498,5 @@ button.next-btn {
     text-alignment:center;
     display:flex;
 }
-.stat{
-    color: rgb(246, 241, 241);
-    font-size: 1.5em;
-    background-color: #070707;
-    width: 200px;
-    color: #f3f0f0;
-justify-content: center;
-}
+
     
