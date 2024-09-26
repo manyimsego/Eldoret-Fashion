@@ -85,6 +85,8 @@ nav ul li a {
     justify-content: space-around;
     padding: 40px 20px;
     border-spacing: 2px;
+      font-size: 5em;
+    
 
 }
 
@@ -96,7 +98,7 @@ nav ul li a {
 
 .stat p {
     margin: 5px 0 0;
-    font-size: 1em;
+    font-size: 5em;
 }
 
 /* Services Section */
