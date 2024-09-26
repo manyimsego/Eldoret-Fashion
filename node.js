@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
 // Counter animation
 const counters = document.querySelectorAll('.counter');
-const speed = 10; // Animation speed
+const speed = 1000; // Animation speed
 
 counters.forEach(counter => {
     const updateCount = () => {
@@ -63,7 +63,7 @@ counters.forEach(counter => {
         // If current count is less than target, increment it
         if (count < target) {
             counter.innerText = Math.ceil(count + increment);
-            setTimeout(updateCount, 10); // Adjust delay for smoothness
+            setTimeout(updateCount, 50); // Adjust delay for smoothness
         } else {
             counter.innerText = target; // Ensure exact target number is shown
         }
